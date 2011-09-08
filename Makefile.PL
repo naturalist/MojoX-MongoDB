@@ -12,7 +12,7 @@ author 'minimalist <minimalist@lavabit.com>';
 license 'Apache';
 all_from 'lib/MojoX/MongoDB.pm';
 
-requires 'Mojo::Base';
+requires 'Mojolicious';
 requires 'Digest::MD5';
 requires 'Tie::IxHash';
 requires 'DateTime';
